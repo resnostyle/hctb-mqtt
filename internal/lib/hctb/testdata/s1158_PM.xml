@@ -1,3 +1,4 @@
+<!--Sanitized fixture — fictional school/stop names and coordinates.> -->
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
     <s:Body>
         <s1158Response xmlns="http://tempuri.org/">
@@ -8,16 +9,16 @@
                     <Status Code="0" Message="Success" NextID="0" NextCallTime="" />
                     <GetStudentStopsAndScans>
                         <GetStudentStops>
-                            <VehicleLocation Name="20-05" Latitude="34.7902536"
-                                Longitude="-86.782654999999991" LogTime="10/31/2024 7:00:00 AM"
+                            <VehicleLocation Name="20-05" Latitude="41.000000"
+                                Longitude="-95.000000" LogTime="10/31/2024 7:00:00 AM"
                                 Ignition="N" Latent="No" TimeZoneOffset="-1" Heading="E "
                                 Speed="35"
-                                Address="Endeavor Elementary School" MessageCode="2"
+                                Address="Example Elementary School" MessageCode="2"
                                 DisplayOnMap="N"
                                 StopId="546DE805-C8DF-4464-B6FE-9DB2D05BA9DD"/>
                             <StudentStops>
-                                <StudentStop Name="Endeavor Elementary School PM"
-                                    Latitude="34.790386" Longitude="-86.784177" StartTime="07:00:00"
+                                <StudentStop Name="Example Elementary School PM"
+                                    Latitude="41.000100" Longitude="-95.001000" StartTime="07:00:00"
                                     StopType="School" SubstituteVehicleName="" VehicleName="20-05"
                                     ArrivalTime="06:00:00"
                                     TimeOfDayId="6E7A050E-0295-4200-8EDC-3611BB5DE1C1"
@@ -26,8 +27,8 @@
                                     StopId="9A361D75-F0BA-4F7D-94ED-BE6838BFAA6B"
                                     Esn="123456"
                                     VehicleId="546DE805-C8DF-4464-B6FE-9DB2D05BA9DD" />
-                                <StudentStop Name="Circle K (PM)"
-                                    Latitude="34.807730" Longitude="-86.749860" StartTime="07:00:00"
+                                <StudentStop Name="Corner Store (PM)"
+                                    Latitude="41.010000" Longitude="-94.990000" StartTime="07:00:00"
                                     StopType="Stop" SubstituteVehicleName="" VehicleName="20-05"
                                     ArrivalTime="06:05:00"
                                     TimeOfDayId="6E7A050E-0295-4200-8EDC-3611BB5DE1C1"

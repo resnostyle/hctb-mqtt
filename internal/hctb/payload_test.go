@@ -8,7 +8,7 @@ import (
 )
 
 func TestStudentSlug(t *testing.T) {
-	if got := StudentSlug(hcb.Student{FirstName: "Kaylen"}); got != "kaylen" {
+	if got := StudentSlug(hcb.Student{FirstName: "Ada"}); got != "ada" {
 		t.Fatalf("got %q", got)
 	}
 	if got := StudentSlug(hcb.Student{StudentID: "ABCDEF123456"}); got != "abcdef12" {
@@ -28,8 +28,8 @@ func TestPickPrimaryStop(t *testing.T) {
 }
 
 func TestBuildDistanceETA(t *testing.T) {
-	v := &hcb.VehicleLocation{Latitude: 34.79, Longitude: -86.78, Speed: 30}
-	stop := &hcb.StudentStop{Latitude: 34.80773, Longitude: -86.74986}
+	v := &hcb.VehicleLocation{Latitude: 41.00, Longitude: -95.00, Speed: 30}
+	stop := &hcb.StudentStop{Latitude: 41.01, Longitude: -94.99}
 	d := BuildDistance(v, stop, nil, nil, time.Now())
 	if d.ToStopMiles == nil || *d.ToStopMiles <= 0 {
 		t.Fatalf("miles = %v", d.ToStopMiles)
