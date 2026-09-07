@@ -1,0 +1,46 @@
+<!--Sanitized fixture — fictional school/stop names and coordinates.> -->
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <s1158Response xmlns="http://tempuri.org/">
+            <s1158Result>
+                <SynoviaApi xsi:schemaLocation="https://api.synovia.com/xsd/s1158.xsd"
+                    Version="0.0.0.0" xmlns="Synovia.Api"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <Status Code="0" Message="Success" NextID="0" NextCallTime="" />
+                    <GetStudentStopsAndScans>
+                        <GetStudentStops>
+                            <VehicleLocation Name="20-05" Latitude="41.000000"
+                                Longitude="-95.000000" LogTime="10/31/2024 7:00:00 AM"
+                                Ignition="N" Latent="No" TimeZoneOffset="-1" Heading="E "
+                                Speed="35"
+                                Address="Example Elementary School" MessageCode="2"
+                                DisplayOnMap="N" />
+                            <StudentStops>
+                                <StudentStop Name="Example Elementary School (AM)"
+                                    Latitude="41.000100" Longitude="-95.001000" StartTime="07:00:00"
+                                    StopType="School" SubstituteVehicleName="" VehicleName="20-05"
+                                    ArrivalTime="06:00:00"
+                                    TimeOfDayId="55632A13-35C5-4169-B872-F5ABDC25DF6A"
+                                    TierStartTime="05:42:00"
+                                    BusVisibilityStartOffset="0"
+                                    StopId="275FD0B6-3836-4FAE-A185-14C0C1ED861D"
+                                    Esn="123456"
+                                    VehicleId="546DE805-C8DF-4464-B6FE-9DB2D05BA9DD"/>
+                                <StudentStop Name="Corner Store (AM)"
+                                    Latitude="41.010000" Longitude="-94.990000" StartTime="07:00:00"
+                                    StopType="Stop" SubstituteVehicleName="" VehicleName="20-05"
+                                    ArrivalTime="06:05:00"
+                                    TimeOfDayId="55632A13-35C5-4169-B872-F5ABDC25DF6A"
+                                    TierStartTime="05:42:00"
+                                    BusVisibilityStartOffset="0"
+                                    StopId="CBD14468-96E3-4648-9DBA-F0B8687A02BC"
+                                    Esn="123456"
+                                    VehicleId="546DE805-C8DF-4464-B6FE-9DB2D05BA9DD"/>
+                            </StudentStops>
+                        </GetStudentStops>
+                    </GetStudentStopsAndScans>
+                </SynoviaApi>
+            </s1158Result>
+        </s1158Response>
+    </s:Body>
+</s:Envelope>

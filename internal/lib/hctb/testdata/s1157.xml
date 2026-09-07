@@ -1,0 +1,32 @@
+<!--Sanitized version of s1157.> -->
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <s1157Response xmlns="http://tempuri.org/">
+      <s1157Result>
+        <SynoviaApi xsi:schemaLocation="https://api.synovia.com/xsd/s1157.xsd" Version="0.0.0.0"
+          xmlns="Synovia.Api" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <Status Code="0" Message="Success" NextID="0" NextCallTime="" />
+          <ParentLogin>
+            <!--Replaced.> -->
+            <Account ID="55503A65D2F448AC8DB5F8181B305281" />
+            <TimeOfDays>
+              <TimeOfDay ID="55632A13-35C5-4169-B872-F5ABDC25DF6A"
+                Name="LookupItem_RouteTimeOfDayType_AM" BeginTime="00:00:00" EndTime="10:00:00" />
+              <TimeOfDay ID="27AADCA0-6D7E-4247-A80F-7847C448EEED"
+                Name="LookupItem_RouteTimeOfDayType_MID" BeginTime="10:00:00" EndTime="13:30:00" />
+              <TimeOfDay ID="6E7A050E-0295-4200-8EDC-3611BB5DE1C1"
+                Name="LookupItem_RouteTimeOfDayType_PM" BeginTime="13:30:00" EndTime="23:59:59" />
+            </TimeOfDays>
+            <LinkedStudents>
+              <!--Replaced.> -->
+              <Student EntityID="DC90F9C55C6142519C9CC9EFA1847922" FirstName="Test1"
+                LastName="Student1" />
+              <Student EntityID="5A2AECC78C2E43FD9CC03CCE55D9806D" FirstName="Test2"
+                LastName="Student2" />
+            </LinkedStudents>
+          </ParentLogin>
+        </SynoviaApi>
+      </s1157Result>
+    </s1157Response>
+  </s:Body>
+</s:Envelope>
