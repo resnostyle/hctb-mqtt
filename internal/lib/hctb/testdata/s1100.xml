@@ -1,0 +1,19 @@
+<!--Sanitized version of s1100.> -->
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+    <s:Body>
+        <s1100Response xmlns="http://tempuri.org/">
+            <s1100Result>
+                <SynoviaApi xsi:schemaLocation="https://api.synovia.com/xsd/s1100.xsd"
+                    Version="0.0.0.0" xmlns="Synovia.Api"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <Status Code="0" Message="Success" NextID="0" NextCallTime="" />
+                    <ValidateCustomerAccountNumber>
+                        <!--Replaced.> -->
+                        <Customer Name="Test County Schools"
+                            ID="5C9756CEEA1B438A80C65C20D2720E23" />
+                    </ValidateCustomerAccountNumber>
+                </SynoviaApi>
+            </s1100Result>
+        </s1100Response>
+    </s:Body>
+</s:Envelope>

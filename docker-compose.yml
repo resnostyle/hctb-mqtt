@@ -1,0 +1,16 @@
+# Example sidecar next to Home Assistant / Mosquitto.
+# Copy env from .env.example.
+
+services:
+  hctb:
+    image: ghcr.io/resnostyle/hctb-mqtt:latest
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile
+    #   args:
+    #     SERVICE: hctb
+    #     RUNTIME: distroless
+    container_name: hctb-mqtt
+    restart: unless-stopped
+    env_file:
+      - .env
